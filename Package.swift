@@ -20,7 +20,7 @@ import PackageDescription
 let package = Package(
   name: "generative-ai-kmp-ios",
   platforms: [
-    .iOS(.v11),
+    .iOS(.v15),
   ],
   products: [
     .library(
@@ -34,7 +34,7 @@ let package = Package(
   targets: [
     .target(
       name: "generativeAIKmpiOS",
-      dependencies: ["GoogleGenerativeAI"]
+      dependencies: [.product(name: "GoogleGenerativeAI", package: "generative-ai-swift")]
     ),
   ]
 )
