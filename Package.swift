@@ -33,7 +33,8 @@ let package = Package(
   ],
   targets: [
     .target(
-      name: "generativeAIKmpiOS"
+      name: "generativeAIKmpiOS",
+      dependencies: ["generative-ai-swift"]
     ),
   ]
 )
