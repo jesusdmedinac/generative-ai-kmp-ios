@@ -24,8 +24,8 @@ let package = Package(
   ],
   products: [
     .library(
-      name: "GenerativeAIKmpiOS",
-      targets: ["GenerativeAIKmpiOS"]
+      name: "generativeAIKmpiOS",
+      targets: ["generativeAIKmpiOS"]
     ),
   ],
   dependencies: [
@@ -33,8 +33,7 @@ let package = Package(
   ],
   targets: [
     .target(
-      name: "GenerativeAIKmpiOS",
-      path: "Sources"
+      name: "generativeAIKmpiOS"
     ),
   ]
 )
